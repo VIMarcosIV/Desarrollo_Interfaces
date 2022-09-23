@@ -155,7 +155,6 @@ public class fechas {
         }
 
         LocalDate fechafinal = LocalDate.parse(aux);
-
         Duration dias = Duration.between(fechaInicial.atStartOfDay(), fechafinal.atStartOfDay());
         System.out.println("Han transcurrido " + dias.toDays() + " dias");
     }
